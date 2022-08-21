@@ -1,0 +1,24 @@
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background: #f2f2f2;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .hero__container {
+    color: #262626;
+    max-width: 700px;
+    font-size: 32pt;
+    text-align: center;
+  }
+
+  .hero__highlight {
+    color: #888c03;
+  }
+
+  .button {
+    margin: 30px auto;
+  }
+}
