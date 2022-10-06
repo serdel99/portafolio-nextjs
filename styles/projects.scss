@@ -1,14 +1,12 @@
 .projects {
   .projects__content {
-    max-width: 1120px;
-    margin: 0 auto;
-    padding: 20px 0;
+    max-width: 856px;
+    margin: 30px auto 0;
   }
-
   .projects__title {
-    font-size: 36pt;
-    font-family: "Rubik", sans-serif;
-    font-weight: 400;
+    font-size: 22px;
+    font-family: "Heebo", sans-serif;
+    font-weight: 300;
   }
 
   .projects__list {
@@ -19,40 +17,48 @@
 
   .project {
     display: flex;
-    justify-content: space-between;
-
-    &:nth-child(2n) {
-      flex-direction: row-reverse;
-    }
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
 
     .project__title {
-      font-family: "Rubik";
-      font-size: 24pt;
-      font-weight: 400;
-    }
-    .project__box {
-      padding: 15px;
-      background: #f2ea77;
-      color: #262626;
+      font-family: "Heebo", sans-serif;
+      font-size: 30px;
+      font-weight: 600;
+      margin: 0 0 10px 0;
     }
 
-    .project__button {
-      margin-top: 20px;
+    .project__tags-container {
+      display: flex;
+      align-items: center;
     }
 
-    .project__description {
+    .project__year {
+      font-family: "Heebo", sans-serif;
+      font-weight: 600;
+      color: #fff;
+      border-radius: 120px;
+      background-color: #142850;
+      padding: 2px 8px;
       margin: 0;
     }
-    .project__tags {
-      margin: 20px 0 0;
-    }
 
-    .project__content {
-      max-width: 40%;
+    .project__tags {
+      font-family: "Heebo", sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+      color: #8695a4;
+      margin: 0 0 0 20px;
+    }
+    .project__description {
+      font-family: "Heebo", sans-serif;
+      font-weight: 300;
+      font-size: 16px;
     }
 
     .project__img {
-      width: 300px;
+      width: 246px;
+      height: 180px;
     }
   }
 }

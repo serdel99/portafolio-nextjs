@@ -5,9 +5,8 @@ import Socials from "../components/socials"
 export default function Home() {
   return (
     <div >
-      <Hero/>
+      <Hero />
       <Projects />
-      <Socials />
     </div>
   )
 }

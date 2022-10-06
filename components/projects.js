@@ -5,8 +5,7 @@ const Projects = () => {
     return (
         <div className='projects'>
             <div className='projects__content'>
-                <h2 className='projects__title'>Some Things I’ve Built</h2>
-
+                <h2 className='projects__title'>Feature works</h2>
                 <ul className='projects__list'>
                     {[1, 2, 4, 5].map(() => <Project />)}
                 </ul>
