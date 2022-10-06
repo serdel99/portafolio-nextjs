@@ -7,7 +7,7 @@ const Projects = () => {
             <div className='projects__content'>
                 <h2 className='projects__title'>Feature works</h2>
                 <ul className='projects__list'>
-                    {[1, 2, 4, 5].map(() => <Project />)}
+                    {[1, 2, 4, 5].map((_, id) => <Project key={`project-${id}`} />)}
                 </ul>
             </div>
         </div>

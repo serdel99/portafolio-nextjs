@@ -1,9 +1,10 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 
 const Project = () => {
     return (
         <div className='project'>
-            <img className='project__img' src='https://img.freepik.com/free-vector/startup-life-concept-illustration_114360-1068.jpg?w=1380&t=st=1661123242~exp=1661123842~hmac=a5c37a03cbf73a24b4f1b0b65126d88b75bb9c786c18da7f3bc07d37a41e4955' />
+            <img alt='' className='project__img' src='https://img.freepik.com/free-vector/startup-life-concept-illustration_114360-1068.jpg?w=1380&t=st=1661123242~exp=1661123842~hmac=a5c37a03cbf73a24b4f1b0b65126d88b75bb9c786c18da7f3bc07d37a41e4955' />
             <div className='project__content'>
                 <h1 className='project__title'>Portafolio</h1>
                 <div className='project__tags-container'>
